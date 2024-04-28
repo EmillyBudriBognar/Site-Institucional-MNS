@@ -1,0 +1,12 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Jost", sans-serif;
+}
+
+/* Estilos da Seção Hero */
+.hero {
+    height: calc(100vh - 70px);
+    background: center / cover no-repeat url('../../assets/big-wallpaper.svg');
+}
