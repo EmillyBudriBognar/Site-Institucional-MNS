@@ -1,4 +1,6 @@
-# MNS - MOUNT NEW SYSTEMS
+<div align="center">
+ <h1>MNS - MOUNT NEW SYSTEMS</h1>
+</div>
 
 <div align="center">
   <img src="https://github.com/EmillyBudriBognar/Site-Institucional-MNS/blob/4bc329becf3f110a68ad0c60422b7b2ae48ca5fb/assets/logo-white-mns.png" width="200" />
