@@ -6,7 +6,7 @@ a {
 
 /* Estilos do Cabeçalho */
 .header {
-    background: center / cover no-repeat url('../../assets/wallpaper.svg');
+    background: center / cover no-repeat url('../assets/wallpaper.svg');
     padding-inline: 16px;
     margin: 0;
     padding: 0;

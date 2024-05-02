@@ -6,7 +6,20 @@
 }
 
 /* Estilos da Seção Hero */
-.hero {
-    height: calc(100vh - 70px);
+#hero {
     background: center / cover no-repeat url('../../assets/big-wallpaper.svg');
+}
+
+h1 {
+    margin-top: 10px;
+}
+
+
+#destaques {
+    margin-top: -145px;
+    background-color: #A798B8;
+}
+
+#beneficios {
+    background-color: #F2F2F2;
 }

@@ -1,0 +1,122 @@
+/* Variáveis */
+:root {
+    /* Color Headings */
+    --black: #252525;
+    --white: #ffff;
+    --dark-purple: #290151;
+    --light-purple: #9A7AF1;
+
+    /* Color Sections */
+    --marker-section-purple: #7E04A9;
+    --emphasis-section-purple: #BD00FF;
+
+    /* Color Common Text */
+    --common-text-black: #707070;
+    --common-text-white: #EBEBEB;
+}
+
+/* Estilos padrão de Texto */
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2.0rem;
+}
+
+h4 {
+    font-size: 1.7rem;
+}
+
+h5 {
+    font-size: 1.5rem;
+}
+
+h6 {
+    font-size: 1.2rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+/* Cores para Texto */
+.p-white {
+    color: var(--common-text-white);
+}
+
+.p-black {
+    color: var(--common-text-black);
+}
+
+.h-black {
+    color: var(--black);
+}
+
+.h-white {
+    color: var(--white);
+}
+
+.h-dark-purple {
+    color: var(--dark-purple);
+}
+
+.h-light-purple {
+    color: var(--light-purple);
+}
+
+.h-marker-purple {
+    color: var(--marker-section-purple);
+}
+
+.h-emphasis-puple {
+    color: var(--emphasis-section-purple);
+}
+
+/* Estilos padrão de Espaçamento */
+section {
+    padding: 50px 6%;
+    min-height: 10px;
+}
+
+#hero {
+    padding: 150px 6%;
+    min-height: 70vh;
+}
+
+/* Estilos padrão de Botão */
+.btn {
+    -webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+    -moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+    -o-transition: background .2s ease-in-out, border .2s ease-in-out;
+    transition: background .2s ease-in-out, border .2s ease-in-out;
+    border: 2px solid;
+}
+
+.btn-transparent {
+    background: transparent;
+    color: var(--white);
+    border: 2px solid var(--white);
+}
+
+    .btn-transparent:hover {
+        color: var(--white);
+        background-color: rgba(255,255,255,0.2);
+        border: 2px solid var(--white);
+    }
+
+.btn-white {
+    background: var(--white);
+    color: var(--dark-purple);
+    border: 2px solid var(--white);
+}
+    
+    .btn-white:hover {
+        color: var(--dark-purple);
+        background-color: rgba(255, 255, 255, 0.79);
+        border: 2px solid rgb(208, 208, 208);
+    }

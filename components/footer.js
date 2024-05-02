@@ -4,7 +4,7 @@ class Footer extends HTMLElement {
         <footer>
         <div class="container">
             <div class="sec aboutus">
-                <h2>Sobre Nós</h2>
+                <h3>Sobre Nós</h3>
                 <p>
                     A Mount New Systems é líder na criação
                     de sistemas "de outro mundo",
@@ -22,24 +22,24 @@ class Footer extends HTMLElement {
                 </ul>
             </div>
             <div class="sec quicklinks">
-                <h2>Suporte</h2>
+                <h3>Suporte</h3>
                 <ul>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Política de Privacidade</a></li>
-                    <li><a href="#">Ajuda</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="#"><p>FAQ</p></a></li>
+                    <li><a href="#"><p>Política de Privacidade</p></a></li>
+                    <li><a href="#"><p>Ajuda</p></a></li>
+                    <li><a href="#"><p>Contato</p></a></li>
                 </ul>
             </div>
             <div class="sec quicklinks">
-                <h2>Links</h2>
+                <h3>Links</h3>
                 <ul>
-                    <li><a href="../home/index.html">Home</a></li>
-                    <li><a href="../servicos/index.html">Serviços</a></li>
-                    <li><a href="../sobre/index.html">Sobre</a></li>
+                    <li><a href="../home/index.html"><p>Home</p></a></li>
+                    <li><a href="../servicos/index.html"><p>Serviços</p></a></li>
+                    <li><a href="../sobre/index.html"><p>Sobre</p></a></li>
                 </ul>
             </div>
             <div class="sec contact">
-                <h2>Contate-nos</h2>
+                <h3>Contate-nos</h3>
                 <ul class="info">
                     <li>
                         <span><i class="fa-solid fa-phone" style="color: #21063b;"></i></span>
