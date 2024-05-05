@@ -107,7 +107,7 @@ a {
         left: 0;
         width: 100vw;
         height: 100vh;
-        background: center / cover no-repeat url('../../assets/big-wallpaper.svg');
+        background: center / cover no-repeat url('../assets/big-wallpaper.svg');
         clip-path: circle(100px at 90% -15%);
         transition: 1s ease-out;
         flex-direction: column;
